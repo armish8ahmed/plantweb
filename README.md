@@ -1,12 +1,9 @@
-
-
-<!DOCTYPE html>
 <html>
 
 <head>
   <style>
     /* Reset default styles */
-    body,
+    body,a
     ul,
     li {
       margin: 0;
@@ -128,54 +125,37 @@
       <br>
       <br>
       <li><a href="#">Home</a></li>
-      
+
       <li class="dropdown">
-        <a href="#">shop</a>
+        <a href="#">Shop</a>
         <ul class="submenu">
           <li><a href="#">Check offers</a></li>
           <li><a href="#">Plants categories</a></li>
-          
+
         </ul>
       </li>
-      
+
       <li class="dropdown">
         <a href="#">Services</a>
         <ul class="submenu">
-          <li><a href="#">join oasis</a></li>
-          <li><a href="#">read blogs</a></li>
-          <li><a href="#">view products</a></li>
+          <li><a href="#">Mali Service</a></li>
+          <li><a href="#">Landscaping</a></li>
+          <li><a href="#">Lawn restoration</a></li>
+          <li><a href="#">Office Restoration</a></li>
         </ul>
       </li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">about us</a></li>
+      <li><a href="#">Plant Forum</a></li>
+      <li><a href="#">Join Community</a></li>
     </ul>
   </nav>
 
   <div class="content">
     <!-- Your page content goes here -->
   </div>
-  <form>
-    <fieldset id="s">
-      <legend>Login Page</legend>
-      <p>
-
-        Name: <input type="text" name="name" placeholder="enter your name here" id="n">
-        <br>
-        <br>
-        Email: <input type="email" email="email" placeholder="enter your email here" id="e">
-        <br>
-        <br>
-        Password: <input type="password" password="password" placeholder="enter your password here" id="p">
-        <br>
-
-
-
-        <br>
-        <button id="b">Submit</button>
-
-      </p>
+ 
+      
     </fieldset>
-  </form>
+  
 </body>
 
 </html>
