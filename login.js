@@ -1,23 +1,13 @@
-var signInButton = document.getElementById('signInButton');
-var overlay = document.getElementById('overlay');
-var switchToSignUp = document.getElementById('switchToSignUp');
-var switchToSignIn = document.getElementById('switchToSignIn');
+let wrapper = document.querySelector('.wrapper'),
+    signUpLink = document.querySelector('.link .signup-link'),
+    signInLink = document.querySelector('.link .signin-link');
 
-signInButton.addEventListener('click', function() {
-  overlay.classList.add('show');
+signUpLink.addEventListener('click', () => {
+    wrapper.classList.add('animated-signin');
+    wrapper.classList.remove('animated-signup');
 });
 
-switchToSignUp.addEventListener('click', function() {
-  overlay.classList.add('signUp');
+signInLink.addEventListener('click', () => {
+    wrapper.classList.add('animated-signup');
+    wrapper.classList.remove('animated-signin');
 });
-
-switchToSignIn.addEventListener('click', function() {
-  overlay.classList.remove('signUp');
-});
-
-
-overlay.addEventListener('click', function(e) {
-    if (e.target === overlay) {
-      overlay.classList.remove('show');
-    }
-  });
